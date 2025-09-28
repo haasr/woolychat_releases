@@ -82,7 +82,7 @@ WoolyChat includes a friendly setup wizard that will:
 3. **Model Selection** - Helps you choose and download your first AI model:
    - **Gemma3:4b** (3.3 GB) - Best all-around model ⭐ *Recommended*
    - **Llama3.2:3b** (2.0 GB) - Lightweight for basic tasks
-   - **DeepSeek-R1:7b** (4.7 GB) - Advanced reasoning with chain-of-thought
+   - **Granite3.3:8b** (4.9 GB) - Fine-tuned for instruction-following tasks
 4. **Ready to Chat** - Automatically opens WoolyChat in your browser
 
 ### More on Models
