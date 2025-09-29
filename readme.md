@@ -31,7 +31,7 @@ Enjoy these early, possibly buggy releases below. I vibe-coded the heck out of t
 - Internet connection (for downloading models)
 
 ### Windows
-**Coming Soon!** Windows version will be available soon.
+**[Download WoolyChat v0.4 for Windows](https://github.com/haasr/woolychat_releases/raw/refs/heads/main/releases/WoolyChat_v0.4.exe)** (Latest Release)
 
 **System Requirements:**
 - Windows 10/11 (64-bit)
@@ -58,7 +58,7 @@ Enjoy these early, possibly buggy releases below. I vibe-coded the heck out of t
 
 <img src="img/2_mac_open_anyway.png" alt="App Not Opened pop-up" width="500" style="margin-left: 40px;">
 
-- Now you'll be able to open it and proceed to step 2.
+- Now you'll be able to open it and proceed to step 3.
 
 3. **First Launch: Simple Setup**
    - Follow the setup wizard if you have not already used Ollama
@@ -66,6 +66,33 @@ Enjoy these early, possibly buggy releases below. I vibe-coded the heck out of t
    - Click "Start WoolyChat Server", then "Open in Browser".
    - When not in use, you can stop the server or keep it running.
    - **Important:** If prompted about network access, click **"Allow"** to let WoolyChat start its web server
+   - Follow the setup wizard to install Ollama and download AI models
+
+4. **Start Chatting**
+   - Choose an AI model from the dropdown
+   - Type your message and press Enter
+   - Attach files by clicking the paperclip icon or dragging files into the chat
+
+### Windows Installation
+
+1. **Download**
+   - Download the [WoolyChat_v0.4.exe](https://github.com/haasr/woolychat_releases/raw/refs/heads/main/releases/WoolyChat_v0.4.exe) file
+   - Save it anywhere you like (Desktop, Downloads, or create a dedicated folder)
+
+2. **First Launch: Allow App**
+   - Double-click `WoolyChat_v0.4` to launch. You'll probably immediately see a Microsoft Defender SmartScreen warning.
+   - This warning appears because Microsoft doesn't recognize the app publisher (me)
+   - You can view the app's [source code](https://github.com/haasr/woolychat) if you want to verify it's safe.
+   - To proceed:
+     - Click **"More info"** on the SmartScreen dialog
+     - Then click **"Run anyway"** to launch WoolyChat
+
+3. **First Launch: Simple Setup**
+   - Follow the setup wizard if you have not already used Ollama
+   - Once done with the setup steps, click "Continue to WoolyChat"
+   - Click "Start WoolyChat Server", then "Open in Browser"
+   - When not in use, you can stop the server or keep it running
+   - **Important:** If prompted by Windows Firewall, click **"Allow access"** to let WoolyChat start its web server
    - Follow the setup wizard to install Ollama and download AI models
 
 4. **Start Chatting**
@@ -118,6 +145,11 @@ I haven't used this model much, but I was really delighted by how well it has be
 **Network Access Permission:**
 When you first start WoolyChat, macOS may show a dialog asking if you want to allow the application to accept incoming network connections. **You must click "Allow"** for WoolyChat to work properly. This permission allows the app to run a local web server that your browser connects to.
 
+### Windows Security & Permissions
+
+**Firewall Permission:**
+When you first start WoolyChat, Windows Firewall may show a dialog asking if you want to allow the application to communicate on your network. **You must click "Allow access"** for WoolyChat to work properly. This permission allows the app to run a local web server that your browser connects to.
+
 ### Data Storage
 
 WoolyChat stores all your data in a safe, standard location:
@@ -134,9 +166,9 @@ This includes:
 ### Common Issues
 
 **"Cannot connect to server" error:**
-- Make sure you clicked "Allow" when prompted for network access
+- Make sure you clicked "Allow" when prompted for network/firewall access
 - Try quitting and restarting WoolyChat
-- Check the launcher window to mak sure the server is running
+- Check the launcher window to make sure the server is running
 
 **Ollama not found:**
 - The setup wizard will guide you to install Ollama
@@ -147,21 +179,26 @@ This includes:
 - Large models (5GB+) can take 10+ minutes to download
 - Check available disk space (models require 2-8GB each)
 
-**App won't start:**
+**App won't start (macOS):**
 - Try moving the app to your Applications folder
 - Make sure you're running macOS 10.14 or later
 - Check Console.app for error messages
+
+**App won't start (Windows):**
+- Make sure you clicked "Run anyway" after "More info" in the SmartScreen dialog
+- Try running as administrator (right-click the exe and select "Run as administrator")
+- Check that you're running Windows 10 or 11 (64-bit)
 
 ## 🎯 What's New in v0.4
 
 - ✅ **Standalone Desktop App** - No more terminal commands or Python setup
 - ✅ **Guided Setup Wizard** - Automatic Ollama installation and model management
 - ✅ **Improved File Handling** - Better support for PDFs, Word docs, and images
+- ✅ **Windows Support** - Now available for Windows 10/11
 
 ## 🔮 Coming Soon
 
 - Nothing. Don't get your hopes up.
-- Will have a Windows exe in a couple days tho fr.
 
 ## 📋 Technical Details
 
