@@ -70,7 +70,7 @@ Enjoy these early, possibly buggy releases below. I vibe-coded the heck out of t
 
 4. **Start Chatting**
    - Choose an AI model from the dropdown
-   - Type your message and press Enter
+   - Type your message and press Cmd-Enter
    - Attach files by clicking the paperclip icon or dragging files into the chat
 
 ### Windows Installation
@@ -97,7 +97,7 @@ Enjoy these early, possibly buggy releases below. I vibe-coded the heck out of t
 
 4. **Start Chatting**
    - Choose an AI model from the dropdown
-   - Type your message and press Enter
+   - Type your message and press Ctrl-Enter
    - Attach files by clicking the paperclip icon or dragging files into the chat
 
 ### Setup Wizard Steps
