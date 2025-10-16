@@ -2,6 +2,14 @@
 
 **A beautiful, easy-to-use desktop application for chatting with AI models through Ollama**
 
+## WARNING: Recent look-alike repo reported
+
+```
+I recently noticed a look-alike of this repository that lists me as a contributor (probably by someone pulling this and using the commit history info). The repository is found here: github.com/TzerAWK/woolychat_releases
+
+They have a directory called `weightometer` with a zip file called `woolychat_releases.zip` in the repository. The zip file contains several executables. It appears to include a pre-compiled LuaJIT for Windows and has a script intended to call an executable passing the name of a text file as an argument. The text file appears to contain Lua bytecode. So basically just beware of that repo and don't download anything from it. I have reported it to Github.
+```
+
 WoolyChat provides a contemporary web interface for Ollama with file attachments, conversation management, and a guided setup wizard - all packaged as a standalone desktop app that requires no technical setup.
 
 I am planning to add things like Projects, Project Knowledge, folders, and unstructured tagging, but who knows when that'll happen. I only went down this rabbit hole because Open WebUI stopped letting me login locally and I didn't get why I needed an account with them in the first place.
